@@ -10,7 +10,7 @@ Your task is to figure out how this code works.
 ```js
 function (string){
   let answer = ""
-  for (character in string) {
+  for (let character in string) {
     let newCharacter = "-"
 
     if (character !== "."){
